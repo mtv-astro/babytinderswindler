@@ -1,0 +1,99 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url('babybg.png') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+header {
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    margin: 20px auto;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 3px 3px 10px gold;
+}
+
+.buy-button {
+    display: inline-block;
+    background: gold;
+    color: black;
+    font-size: 20px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
+    transition: 0.3s;
+}
+
+.buy-button:hover {
+    background: darkorange;
+    box-shadow: 0 0 20px rgba(255, 140, 0, 1);
+}
+
+section {
+    padding: 40px 20px;
+    margin-top: 30px;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+}
+
+h2 {
+    color: gold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.links {
+    margin-top: 40px;
+}
+
+.link-button {
+    display: block;
+    background: gold;
+    color: black;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px auto;
+    width: 80%;
+    max-width: 300px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link-button:hover {
+    background: darkorange;
+}
+
+footer {
+    margin-top: 50px;
+    font-size: 14px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
