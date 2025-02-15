@@ -16,30 +16,66 @@ body {
     padding: 20px;
 }
 
+/* Header Section */
 header {
     padding: 50px 20px;
     background: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     margin: 20px auto;
     display: inline-block;
+    max-width: 800px;
+    width: 100%;
 }
 
-h1 {
-    font-size: 50px;
-    text-shadow: 3px 3px 10px gold;
+/* Contract Box */
+.contract-box {
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: inline-block;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
 }
 
+.contract-box p {
+    font-size: 20px;
+    font-weight: bold;
+    color: gold;
+    margin: 5px 0;
+}
+
+.contract-address {
+    font-size: 24px;
+    font-weight: bold;
+    word-break: break-word;
+    color: white;
+    display: block;
+}
+
+.network {
+    font-size: 18px;
+    color: #aaa;
+}
+
+/* Buy Now Container */
+.buy-now-container {
+    margin-top: 20px;
+}
+
+/* Buy Button */
 .buy-button {
     display: inline-block;
     background: gold;
     color: black;
-    font-size: 20px;
-    padding: 15px 30px;
+    font-size: 22px;
+    padding: 15px 40px;
     border-radius: 5px;
     text-decoration: none;
-    margin-top: 20px;
+    margin-top: 10px;
     box-shadow: 0 0 10px rgba(255, 215, 0, 0.8);
     transition: 0.3s;
+    font-weight: bold;
 }
 
 .buy-button:hover {
@@ -47,17 +83,23 @@ h1 {
     box-shadow: 0 0 20px rgba(255, 140, 0, 1);
 }
 
+/* Sections */
 section {
     padding: 40px 20px;
     margin-top: 30px;
     background: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h2 {
     color: gold;
+    font-size: 28px;
 }
 
+/* List Items */
 ul {
     list-style: none;
     padding: 0;
@@ -68,6 +110,7 @@ li {
     margin: 10px 0;
 }
 
+/* Links Section */
 .links {
     margin-top: 40px;
 }
@@ -90,6 +133,7 @@ li {
     background: darkorange;
 }
 
+/* Footer */
 footer {
     margin-top: 50px;
     font-size: 14px;
